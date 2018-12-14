@@ -1,0 +1,231 @@
+body{
+margin: 140px;
+font-family: benton-sans, sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+h2{
+font-weight: 300;
+font-style: normal;
+font-size:22px;
+}
+h1{
+    font-size:45px;
+    font-family: "the Skinny";
+}
+
+#title:hover {
+  animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    letter-spacing: normal;
+  }
+  100% {
+    letter-spacing:.2em;
+  }
+}
+
+p{
+font-size:17px;
+}
+.grid_parent {
+    display: grid;
+    grid-template-columns: [start] 1fr 1fr 1fr [end];
+    grid-gap:2em;
+    grid-auto-rows: minmax(30px,auto);
+    animation: fade 6s;
+    animation-timing-function: ease;
+}
+
+#bigimage{
+    object-fit:cover;
+    height: 400px;
+    width: 100%;
+    
+}
+
+
+
+.openingimage{
+    grid-column: 2/4;
+   
+/*    background-color:green;*/
+    
+}
+
+@keyframes fade{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+.companydescription{
+    grid-column: 2/4;
+    padding-top:15px;
+}
+.socialmission{
+    grid-column:1/2;
+/*    background-color:blue;*/
+    text-align:right;
+    padding-top:10px;
+}
+.GambianTea{
+    grid-column:1/2;
+/*    background-color:pink;*/
+    text-align:right;
+}
+.boat{
+    grid-column:3/4;
+}
+.Teadescription{
+    grid-column:2/3;
+}
+/*
+li{
+    float:left;
+    text-align: right;
+    list-style: none;
+*/
+a{
+    font-size:20px;
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    background-color:orange;
+    font-weight: 500;
+    font-size:23px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.title{
+/*    background-color:azure;*/
+    grid-column:2/4;
+}
+ul#navigation {
+/*    background-color:pink;*/
+    text-align: right;
+    margin-top: 0;
+    padding-top: 0px;
+    margin-bottom: 0;
+    list-style: none;
+    line-height: 2em;
+}
+.shopimage1{
+    grid-column: 2/3;
+}
+.shopimage2{
+    grid-column: 3/4;
+}
+.shopimage3{
+    grid-column: 2/3;
+}
+.shopimage4{
+    grid-column: 3/4;
+}
+#shopimage{
+     object-fit:cover;
+    height: 400px;
+    width: 100%;
+    
+}
+.aboutimage{
+    grid-column: 2/3;
+}
+
+.shopdescription{
+    grid-column: 2/4;
+    margin-top:-15px;
+    padding-top:none;
+}
+.backgroundtree{
+    grid-column: 1/2;
+}
+#tree{
+    object-fit: contain;
+    height:600px;
+    width:100%;
+}
+
+#mediumimage{
+    object-fit:contain;
+    height: 400px;
+    width: 100%;
+}
+.aboutdescription{
+    grid-column:3/4;
+    margin-top:-10px;
+}
+.bintouimage{
+    grid-column:3/4;
+    margin-top:-60px;
+}
+.bintoudescription{
+    grid-column: 2/3;
+}
+.thefounder{
+    grid-column:1/2;
+    text-align: right;
+    margin-top:-5px;
+}
+
+li{
+    animation: move 2s;
+}
+
+@keyframes move{
+    0%{
+        transform: translate(-20);
+    }
+    
+    100%{
+        transform: translate(0);
+    }
+}
+/*
+font-family: benton-sans, sans-serif;
+font-weight: 300;
+font-style: normal;
+
+
+Benton Sans Book
+font-family: benton-sans, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+
+Benton Sans Regular
+font-family: benton-sans, sans-serif;
+font-weight: 500;
+font-style: normal;
+
+
+Benton Sans Medium
+font-family: benton-sans, sans-serif;
+font-weight: 600;
+font-style: normal;
+
+
+Benton Sans Bold
+font-family: benton-sans, sans-serif;
+font-weight: 700;
+font-style: normal;
+*/
+
+
+ 
+/*
+h1,h2,h3,h4,div,p,section,nav {
+    border: 1px solid red ;
+}
+*/
