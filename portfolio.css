@@ -1,0 +1,242 @@
+body{
+    font-family: miller-banner, serif;
+
+    margin-right: 130px;
+    margin-left: 130px;
+}
+.grid_parent {
+    display: grid;
+    grid-template-columns: [start] 1fr 1fr 1fr [end];
+    grid-gap:20px 1em;
+    grid-auto-rows: minmax(50px,auto);
+  align-content: start;	
+/*    grid-row-gap: 1px;*/
+
+}
+
+h1{
+    font-weight: 100;
+    font-size: 40px;
+    
+}
+#image{
+    object-fit:contain;
+    height: 400px;
+    width: 100%;
+}
+#image2{
+    object-fit:contain;
+    height: 280px;
+    width: 100%;
+}
+#image3{
+    object-fit:contain;
+    height: 600px;
+    width: 100%;
+}
+#image5{
+    object-fit:contain;
+    height: 190px;
+    width: 100%;
+}
+#image6{
+    object-fit:contain;
+    height: 50px;
+    width: 100%;
+}
+#image7{
+    object-fit:contain;
+    height: 60px;
+    width: 100%;
+}
+#image8{
+    object-fit:contain;
+    height: 1100px;
+    width: 100%;
+}
+paperplanesimage{
+    grid-column:1/4;
+}
+li{
+    display:inline;
+    font-size: 19px;
+    padding-right:20px;
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+.navigation{
+    grid-column:1/4;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+a:hover{
+    color:hotpink;
+}
+
+#title{
+font-style: italic;
+padding-right: 40px;
+    padding-left: -10px;
+    margin-left:-45px;
+    text-align: left;
+    font-size: 25px;
+    
+}
+
+.introduction{
+    grid-column:1/4;
+    text-align: center;
+    padding-left:140px;
+    padding-right:140px;
+    margin-top:50px;
+}
+.circle{
+  clip-path: circle(100px at center);
+grid-column:2/3;
+}
+
+
+.video1{
+grid-column:1/4;
+
+}
+
+.firstparagraph{
+grid-column: 3/4;
+}
+
+#object{
+    object-fit:contain;
+    height: 500px;
+    width: 100%;
+}
+#video2{
+    height:550px;
+    object-fit:contain;
+     width: 100%;
+}
+
+h2{
+    font-size: 45px;
+    font-weight: 200;
+    text-align:center;
+}
+.heading{
+    grid-column: 1/4;
+    margin-top: 20px;
+}
+p{
+    font-size: 16px;
+    padding-top: -15px;
+    padding-bottom: -15px;
+}
+.paragraph1{
+    grid-column:2/3;
+/*    margin-top: -80px;*/
+}
+.paragraph4{
+    grid-column:2/3;
+/*    margin-top: -80px;*/
+}
+
+.screen1{
+    grid-column: 1/4;
+}
+.paragraph2{
+    grid-column:2/3;
+}
+.screen2{
+    grid-column:1/2;
+}
+.openingimage{
+    grid-column: 1/4;
+}
+.image2{
+    grid-column: 2/3;
+}
+.gridimage1{
+    grid-column:1/2;
+/*    margin-top: -100px;*/
+    grid-row:3;
+}
+.kevitalogo{
+    grid-column: 2/3;
+/*    margin-top: -170px;*/
+/*    grid-row:4;*/
+}
+.gridimage2{
+    grid-column: 1/2;
+/*    margin-top:-130px;*/
+/*      grid-row:4;*/
+}
+.gridimage3{
+    grid-column:3/4;
+/*    margin-top:-130px;*/
+    grid-row:4;
+}
+.gridimage4{
+/*    margin-top:-130px;*/
+    grid-row:5;
+}
+.gridimage5{
+/*    margin-top:-130px;*/
+    grid-row:5;
+}
+.gridimage6{
+/*    margin-top:-130px;*/
+    grid-row:5;
+}
+.gridimage7{
+/*    margin-top: -100px;*/
+
+    grid-column: 2/3;
+/*     grid-row:3;*/
+}
+.gridimage8{
+/*    margin-top: -100px;*/
+    
+    grid-column: 3/4;
+     grid-row:3;
+}
+.kevitaimage2{
+    grid-column: 1/4;
+}
+.kevitaimage3{
+    grid-column: 1/4;
+    margin-top:20px;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: 200;
+}
+.color{
+    grid-column: 1/2;
+}
+.kevitaimage4{
+    grid-column: 1/4;
+    margin-top:20px;
+}
+
+.gridimage{
+    grid-column:1/4;
+    align-content: stretch;
+}
+.socialmedia{
+    grid-column:2/3;
+    margin-top:20px;
+}
+.olympicschedule{
+    grid-column: 1/4;
+}
+.artnouveau{
+    grid-column: 2/3;
+    margin-top:
+}
