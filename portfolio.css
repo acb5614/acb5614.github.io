@@ -240,3 +240,11 @@ h3{
     grid-column: 2/3;
     margin-top:
 }
+.footer{
+    grid-column:1/4;
+}
+h6{
+    font-size:13px;
+    font-weight:200;
+    font-style: italic;
+}
