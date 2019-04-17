@@ -59,6 +59,11 @@ h1{
     height: 100px;
     width: 100%;
 }
+#image9{
+    object-fit:contain;
+    height: 1200px;
+    width: 100%;
+}
 paperplanesimage{
     grid-column:1/4;
 }
@@ -274,6 +279,10 @@ h5{
 }
 .processimage3{
    grid-column:3/4; 
+}
+
+.mosbigimage{
+    grid-column:1/4;
 }
 
 @media only screen and (max-width: 600px) {
