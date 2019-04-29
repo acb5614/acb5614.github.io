@@ -275,7 +275,7 @@ h5{
    grid-column:1/2; 
 }
 .processimage2{
-   grid-column:2/3; 
+   grid-column:2/3;
 }
 .processimage3{
    grid-column:3/4; 
