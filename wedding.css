@@ -22,7 +22,7 @@ padding-bottom:20px;
 }
 
 #heading{
-    font-size: 70px;
+    font-size: 60px;
     line-height: .9em;
     
 }
@@ -58,7 +58,7 @@ padding-bottom:20px;
 }
 
 img{
-    width: 15%;
+    width: 150px;
     
 }
 
@@ -98,7 +98,7 @@ a:hover{
     padding:-20px;
 }
 .weddinghead{
-    font-size: 30px;
+    font-size: 25px;
     background-color:white;
     color: #cc9900;
     padding-top: 20px;
