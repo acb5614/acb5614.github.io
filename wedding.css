@@ -111,3 +111,35 @@ a:hover{
     background-color:white;
     color: #cc9900;
 }
+
+@media only screen and (max-width: 600px) {
+    
+    
+    #heading{
+    font-size: 50px;
+    line-height: .9em;
+    
+}
+    .weddinghead{
+        font-size: 22px;}
+    
+    a{
+        font-size: 40px;}
+    
+    a:hover{
+    font-size: 43px;
+    color:#f2646b;
+        text-decoration: none;}
+    
+    .weddingbod{
+        padding-top: 50;
+    padding-bottom:50}
+    
+    .registries{
+        margin-top:60px;}
+    }
+.footer{
+    font-size: 22px;
+}
+}
+
