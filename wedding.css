@@ -1,0 +1,107 @@
+/*
+
+.grid_parent {
+    display: grid;
+    grid-template-columns: [start] 1fr 1fr 1fr [end];
+    grid-gap:20px 1em;
+    grid-auto-rows: minmax(50px,auto);
+  align-content: start;
+}
+*/
+
+body{
+font-family: tilda-grande, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+text-align: center;
+
+    padding: 5px;
+    color: #7f112e;
+padding-bottom:20px;
+}
+
+#heading{
+    font-size: 80px;
+    line-height: .9em;
+    
+}
+/*
+.meantime{
+    margin-top:200px;
+    padding-bottom: -60px;
+    border-bottom: solid 10px;
+    margin-left:100px;
+    margin-right:100px;
+    display: inline;
+*/
+/*    grid-column: 2/3;*/
+    
+}
+.image1{
+        display: block;
+    margin-block-start: .1em;
+    margin-block-end:.1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.registries{
+    margin-top:120px;
+    background-color:#fffcdc;
+    padding-bottom: 30px;
+}
+.weddingbod{
+    background-color:#fffcdc;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+img{
+    width: 15%;
+    
+}
+
+
+
+.header{
+    grid-column: 1/4;
+}
+
+p {
+    display: block;
+    margin-block-start: .1em;
+    margin-block-end:.1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#title{
+    font-size: 80px;
+    padding-bottom: 40px;
+
+}
+
+a{
+    font-size: 55px;
+    color:#922d51;
+    text-decoration: none;
+   
+}
+#image2{
+    padding:-20px;
+}
+.weddinghead{
+    font-size: 30px;
+    background-color:white;
+    color: #cc9900;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer{
+    padding-top: 20px;
+    font-size: 30px;
+    background-color:white;
+    color: #cc9900;
+}

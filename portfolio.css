@@ -1,5 +1,7 @@
 body{
-    font-family: miller-banner, serif;
+    font-family: trilby, serif;
+    font-weight: 400;
+    font-style: normal;
 
     margin-right: 130px;
     margin-left: 130px;
@@ -14,9 +16,27 @@ body{
 
 }
 
+/*
+.homeparagraph{
+       grid-column:1/4;
+    padding-top: -30px;
+    margin-top: -30px;
+}
+*/
+
+
 h1{
-    font-weight: 100;
-    font-size: 40px;
+  font-family: beastly, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 70px;
+    
+}
+
+h4{
+font-style: normal;
+font-size: 28px;
+font-weight: 400;
     
 }
 #image{
@@ -69,7 +89,7 @@ paperplanesimage{
 }
 li{
     display:inline;
-    font-size: 19px;
+    font-size: 15px;
     padding-right:20px;
 }
 
@@ -91,21 +111,22 @@ a:hover{
 }
 
 #title{
-font-style: italic;
 padding-right: 40px;
     padding-left: -10px;
     margin-left:-45px;
     text-align: left;
-    font-size: 25px;
+    font-size: 20px;
     
 }
 
 .introduction{
     grid-column:1/4;
-    text-align: center;
+/*
     padding-left:140px;
     padding-right:140px;
-    margin-top:50px;
+*/
+/*    margin-top:50px;*/
+/*    margin-bottom: px;*/
 }
 .circle{
   clip-path: circle(100px at center);
@@ -143,7 +164,7 @@ h2{
     margin-top: 20px;
 }
 p{
-    font-size: 16px;
+    font-size: 20px;
     padding-top: -15px;
     padding-bottom: -15px;
 }
@@ -355,5 +376,18 @@ highlightsp1{
     p{
         font-size:14px;
     }
-}
+
+/*
+    @font-face{
+        font-family: "Oswald";
+        src: url(Downloads/oswald/Oswald-Regular.ttf);
+        font-weight: 400;
+    }
+*/
+
+
+
+
+
+
 /*font-variation-settings for variable fonts*/
