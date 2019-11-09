@@ -22,7 +22,7 @@ padding-bottom:20px;
 }
 
 #heading{
-    font-size: 80px;
+    font-size: 70px;
     line-height: .9em;
     
 }
@@ -77,14 +77,20 @@ p {
 }
 
 #title{
-    font-size: 80px;
+    font-size: 100px;
     padding-bottom: 40px;
 
 }
 
 a{
     font-size: 55px;
-    color:#922d51;
+    color:#e09999;
+    text-decoration: none;
+   
+}
+a:hover{
+    font-size: 58px;
+    color:#f2646b;
     text-decoration: none;
    
 }
