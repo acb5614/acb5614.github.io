@@ -24,6 +24,7 @@ padding-bottom:20px;
 #heading{
     font-size: 50px;
     line-height: .9em;
+    color: #f2646b;
     
 }
 /*
@@ -48,12 +49,12 @@ padding-bottom:20px;
 
 .registries{
     margin-top:30px;
-    padding-top:30px;
+    padding-top:60px;
 /*    background-color:#fff7d4;*/
     padding-bottom: 60px;
 }
 .weddingbod{
-    background-color:##e09999;
+/*    background-color:#e09999;*/
     padding-top: 100px;
     padding-bottom: 100px;
 }
