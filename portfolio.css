@@ -377,6 +377,24 @@ highlightsp1{
         font-size:14px;
     }
 
+    
+ 
+    
+@font-face {
+  font-family: Chromo;
+  src: url('/assets/Chromo1GX.ttf') format("truetype-variations");
+}
+    
+    
+       #joy{
+       font-family: Chromo;
+        font-size: 200px;
+        
+    }
+    
+    
+    
+    
 /*
     @font-face{
         font-family: "Oswald";
