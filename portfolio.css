@@ -29,13 +29,13 @@ h1{
   font-family: beastly, sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 70px;
+    font-size: 100px;
     
 }
 
 h4{
 font-style: normal;
-font-size: 28px;
+font-size: 32px;
 font-weight: 400;
     
 }
@@ -121,6 +121,7 @@ padding-right: 40px;
 
 .introduction{
     grid-column:1/4;
+    margin-top:-20px;
 /*
     padding-left:140px;
     padding-right:140px;
