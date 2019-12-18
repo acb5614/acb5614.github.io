@@ -1,7 +1,9 @@
 body{
-    font-family: trilby, serif;
-    font-weight: 400;
-    font-style: normal;
+ font-family: jubilat, serif;
+
+font-weight: 400;
+
+font-style: normal;
 
     margin-right: 130px;
     margin-left: 130px;
@@ -24,12 +26,31 @@ body{
 }
 */
 
+  .spreads{
+        text-align:center;
+    }
+
+
+@font-face {
+  font-family: "Chromo4GX";
+  src: url('Chromo4GX.ttf') format("truetype-variations");
+  font-weight: 100 500;
+}
 
 h1{
-  font-family: beastly, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 100px;
+/*
+  font-family: 'Chromo4GX';
+   font-size:300px;
+        font-family: 'Chromo3GX';
+*/
+    
+    font-family: moret, serif;
+
+font-weight: 700;
+
+font-style: normal;
+/*    font-style: normal;*/
+    font-size: 115px;
     
 }
 
@@ -37,6 +58,11 @@ h4{
 font-style: normal;
 font-size: 32px;
 font-weight: 400;
+    
+}
+.center{
+    text-align: center;
+    grid-column:2/3;
     
 }
 #image{
@@ -81,7 +107,7 @@ font-weight: 400;
 }
 #image9{
     object-fit:contain;
-    height: 1200px;
+    height: 500px;
     width: 100%;
 }
 paperplanesimage{
@@ -117,6 +143,13 @@ padding-right: 40px;
     text-align: left;
     font-size: 20px;
     
+}
+
+.nineparagraph{
+    margin-top: 100px;
+    margin-bottom:100px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .introduction{
@@ -316,6 +349,9 @@ h5{
 .highlights3{
     grid-column:3/4;
 }
+.highlights4{
+    grid-column:1/4;
+}
 highlightsp1{
     grid-column:3/4
 }
@@ -365,6 +401,12 @@ highlightsp1{
     width: 100%;
  
     }
+    
+    #image9{
+    object-fit:cover;
+    height: 600px;
+    width: 200%;
+}
     h1{
     font-size: 18px;
     text-align: left;
@@ -393,8 +435,11 @@ highlightsp1{
         
     }
     
-    
-    
+    #spreads{
+        text-align: center;
+        
+    }  
+  
     
 /*
     @font-face{
