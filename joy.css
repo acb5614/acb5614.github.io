@@ -73,7 +73,7 @@ li{
 }
 .container3 {
       
-    background-color: #F9F9C7;
+    background-color: pink;
     font-family: "Chromo1GX";
     font-size: 175px;
 /*    padding-left:50px;*/
@@ -103,7 +103,7 @@ animation: pulse 5s infinite;
 }
 }
 h1{
-        font-size: 40px;
+        font-size: 55px;
     color:deeppink;
     border: 3px deeppink;
     margin-left: 40px;
@@ -176,6 +176,7 @@ animation: pulse 5s infinite;
 /*    padding-left:50px;*/
     font-weight: 100;
     margin-top: -10px;
+     margin-bottom: 20px;
 /*    padding-top: none;*/
     padding: 80px;
     text-align: center;
@@ -190,12 +191,13 @@ animation: pulse 5s infinite;
 
 .container4 {
       
-    background-color: #F9F9C7;
+    background-color: paleturquoise;
     font-family: "Chromo4GX";
-    font-size: 175px;
+    font-size: 180px;
 /*    padding-left:50px;*/
     font-weight: 100;
     margin-top: -10px;
+    margin-bottom: 20px;
 /*    padding-top: none;*/
     padding: 80px;
     text-align: center;
@@ -203,6 +205,26 @@ animation: pulse 5s infinite;
   }
 
 .container4:hover {
+animation: pulse 5s infinite;
+
+  
+}
+
+.container5{
+    font-size:300px;
+        font-family: 'Chromo3GX';
+      font-weight: 100;
+    text-align: center;
+    background-color: #CCDCFF;
+     margin-bottom: 20px;
+    
+    
+    
+}
+
+
+
+.container5:hover {
 animation: pulse 5s infinite;
 
   
