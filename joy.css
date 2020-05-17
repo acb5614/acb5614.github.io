@@ -1,9 +1,42 @@
 body{
-/*    background-color: #F9F9C7;*/
+    background-color: #FFF1EB;
     margin-right: 130px;
     margin-left: 130px;
     font-family: trilby, serif;
+    font-weight: 300;
 }
+
+#decoration1{
+margin-bottom:-80px;
+border-top: 7px solid #FFE000;
+border-bottom: 7px solid #FFE000;
+}
+#bottom{
+margin-top:-900px;
+    border-top: 7px solid #FFE000;
+border-bottom: 7px solid #FFE000;
+background-color: beige;    
+}
+
+#decoration5{
+margin-bottom:-180px;
+    margin-top: 50px;
+    padding: 0;
+/*padding-bottom: 40px;*/
+border-top: 7px solid #F98246;
+border-bottom: 7px solid #F98246;
+}
+#apple{
+margin-top:-900px;
+    border-top: 7px solid #F98246;
+border-bottom: 7px solid #F98246;
+background-color: beige;    
+}
+
+.poster{
+    margin-top:100px;
+}
+
 
 .navigation{
 
@@ -39,7 +72,7 @@ li{
 
 @font-face {
   font-family: "Chromo3GX";
-  src: url('Chromo3GX.ttf') format("truetype-variations");
+  src: url('ChromoexperimentGX.ttf') format("truetype-variations");
   font-weight: 100 500;
 }
 
@@ -48,6 +81,20 @@ li{
   font-family: "Chromo4GX";
   src: url('Chromo4GX.ttf') format("truetype-variations");
   font-weight: 100 500;
+}
+@font-face {
+  font-family: "Chromo8GX";
+  src: url('Chromo8GX.ttf') format("truetype-variations");
+  font-weight: 100 500;
+}
+.spark{
+    font-size:70px;
+      background-color: #FFFDF5;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    margin-bottom: -20px;
+    color: #FF5A81;
 }
 
 /*
@@ -73,14 +120,17 @@ li{
 }
 .container3 {
       
-    background-color: pink;
+  background-color: #FFFDF5;
     font-family: "Chromo8GX";
-    font-size: 175px;
+    font-size: 220px;
 /*    padding-left:50px;*/
     font-weight: 100;
     margin-top: -10px;
 /*    padding-top: none;*/
     padding: 80px;
+    padding-top: 0px;
+    padding-bottom:140px;
+    margin-bottom: -30px;
     text-align: center;
     
   }
@@ -102,21 +152,88 @@ animation: pulse 5s infinite;
     font-variation-settings: 'wght' 100;  
 }
 }
+
+
+
+
+
 h1{
-        font-size: 55px;
+      
+   font-family: 'Chromo8GX';
+    font-size:120px;
+    
+/*
     color:deeppink;
     border: 3px deeppink;
-    margin-left: 40px;
+*/
+/*    margin-left: 40px;*/
     text-align: center;
-    
+    animation: breathe 3s infinite;
+    background-color: beige;
+    margin-left: -200px;
+    margin-right: -200px;
+    margin-top: -70px;
+    padding-top: 100px;
     
     }
+
+@keyframes breathe {
+  0% {
+    font-family: 'Chromo3GX';
+  }
+ 
+50% {
+    font-family: 'Chromo4GX';
+    }
+    100% {
+    font-family: 'Chromo3GX';
+    }
+
+}
+
+
+
+h2{
+    text-align: center;
+    color:#FC9D35;
+    font-size: 45px;
+    margin-top: -80px;
+    margin-left: -200px;
+    margin-right: -200px;
+/*    padding-top:30px;*/
+     background-color: beige;
+    
+}
+
+
+
+h3{
+text-align:center;
+color:#FC9D35;
+    font-size: 30px;
+    margin-top: -50px;
+    margin-left: -200px;
+    margin-right: -200px;
+    padding-top:30px;
+    padding-bottom: 50px;
+     background-color: beige;
+    }
+
     .title{
         margin-top:50px;
 /*        background-color:white;*/
         border-bottom: 3px deeppink;
         padding:20px;
     }
+
+
+
+#frameborder{
+    max-width: 50%;
+    align-content: center;
+}
+
+
 
 .description{
 /*    margin-bottom: 20px;*/
@@ -135,17 +252,27 @@ h1{
 
 
 .container1{
-    font-size:300px;
+    font-size:320px;
         font-family: 'Chromo3GX';
       font-weight: 100;
     text-align: center;
     margin-top: 20px;
+/*
+    margin-left: 200px;
+      margin-right: 200px;
+*/
       margin-bottom: 20px;
-    background-color: #CCDCFF;
+    background-image: url("images/blackandwhite-01-01.svg");
+/*    background-color: #FFFEE1;*/
+      background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+    height: 500px;
+    padding-top: 90px;
     
     
     
 }
+
 
 
 
@@ -170,15 +297,19 @@ animation: pulse 5s infinite;
 
 .container2 {
       
-    background-color: #F9F9C7;
+/*    background-color: #F9F9C7;*/
     font-family: "Chromo4GX";
-    font-size: 300px;
+    font-size: 370px;
 /*    padding-left:50px;*/
     font-weight: 100;
     margin-top: -10px;
-     margin-bottom: 20px;
+     margin-bottom: -120px;
 /*    padding-top: none;*/
     padding: 80px;
+        background-image: url("images/blueframe-01.svg");
+/*    background-color: #F4F9E8;*/
+      background-position: center; /* Center the image */
+  background-repeat: no-repeat;
     text-align: center;
     
   }
@@ -211,12 +342,16 @@ animation: pulse 5s infinite;
 }
 
 .container5{
-    font-size:300px;
+    font-size:150px;
         font-family: 'Chromo3GX';
       font-weight: 100;
     text-align: center;
-    background-color: #CCDCFF;
+    align-content: center;
+    background-color: #FFFDF5;
      margin-bottom: 20px;
+/*    max-width: 600px;*/
+    padding:10px;
+/*    border: 100px solid #5DC8CE;*/
     
     
     
@@ -228,4 +363,29 @@ animation: pulse 5s infinite;
 animation: pulse 5s infinite;
 
   
+}
+
+.firstcharacter {
+  color: #903;
+  float: left;
+  font-family: "Chromo4GX";
+  font-size: 100px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+.spark{
+    font-family: giza-one, serif;
+font-weight: 300;
+font-style: normal;
+font-size: 130px;
+    line-height: .9;
+    padding-top: 120px;
+}
+
+#portfolio-button{
+    width: 18%;
+    text-align: center; 
 }

@@ -29,7 +29,7 @@ body{
     margin-left: 160px;
     margin-top: 20;
 /*    background-color: #F7D7E4;*/
-    color:#0000FF;
+    color:#0000FF;      background-color: #FFFFFF;
     font-family: "Clarendon";
 /*
     width:750px ;
@@ -61,20 +61,25 @@ body{
 }
 */
 
-
-
+.image{
+   grid-column:1/4; 
+}
+#image3{
+    object-fit:contain;
+    width:100%;
+}
 
 h1{
     
     font-family: 'Clarendon';
-   font-size:40px;
+   font-size:30px;
     font-variation-settings: 'wght' 110, 'wonk' 500;
     margin-top:170;
     margin-left: 110px;
         margin-right:110px;
     padding-top: 30px;
     margin-bottom:0;
-     color:#0000FF;
+        color:#0000FF;      background-color: #FFFFFF;
     border-top: 2px solid #0000FF;
     
     
@@ -86,11 +91,11 @@ h1{
 h2{
     
     font-family: 'Clarendon';
-   font-size:100px;
+   font-size:80px;
     font-variation-settings: 'wght' 400;
     margin-top:0;
     margin-bottom:-60;
-    color:##0000FF;
+   color:#0000FF;      background-color: #FFFFFF;
     animation: breathe 3s infinite;
     
     
@@ -100,11 +105,11 @@ h2{
 h3{
     
     font-family: 'Clarendon';
-   font-size:170px;
+   font-size:140px;
     font-variation-settings: 'wonk' 500;
     margin-top:-40;
     margin-bottom:70;
-     color:##0000FF;
+        color:#0000FF;      background-color: #FFFFFF;
     animation: pulse 3s infinite;
     
     
@@ -118,7 +123,7 @@ h4{
     font-variation-settings: 'wght' 110, 'wonk' 500;
     margin-top:50;
     margin-bottom:0;
-    color:#0000FF;
+      color:#0000FF;      background-color: #FFFFFF;
     
      border-top: 3px solid #0000FF;
       margin-left: 170px;
@@ -151,8 +156,24 @@ h4{
 }
 
 
+/*
+.container1{
+    background-color: #FFF800;
+     font-family: 'Clarendon';
+    color:black;
+    grid-column:1/4; 
+    
+}
+*/
+/*
 
-
+.container2{
+    background-color: #FF0000;
+     font-family: 'Clarendon';
+    color:white;
+     grid-column:1/4;
+}
+*/
 
 .asterick{
       font-size: 140px;
@@ -217,10 +238,6 @@ h4{
 
 
 
-p{
-  
-        
-}
 
 
 
@@ -305,8 +322,8 @@ h5{
     margin-left: 90px;
         margin-right:90px;
     padding-top: 0px;
-    margin-bottom:0;
-     color:#0000FF;
+    margin-bottom:150px;
+        color:#0000FF;      background-color: #FFFFFF;
    
     
     
